@@ -1,0 +1,52 @@
+,Codebook  (RQ0),,Codebook (RQ1),,Codebook (RQ2)
+0.1,Current practices about verification-2FA,1.1,Pre understanding: related to biological feature,2.1,Credential preference: biometrics (work standalone without other credentials/easiness/secure)
+0.2,Current practices about financial verification-SSN/photo id,1.2,Pre understanding: daily life verification,2.2,"Credential preference: email can be hacked easily, but won't reveal personal information"
+0.3,Current practices about financial verification-face,1.3,Pre understanding: another type of person identification,2.3,Credential preference: depends on who is issuing PHC
+0.4,Current practices about financial verification-fingerprint,1.4,"Pre understanding: identity verification with uniqueness-personality, appearance, behavioral-patterns",2.4,Credential preference: driver's license-it's common and people carry it almost always
+0.5,Current practices about government verification-gov id,1.5,Post understanding: everything stored in database,2.5,Credential preference: government ID
+0.6,Current practices about social media-no identification,1.6,Post understanding: Similarity to SSL technology-encryption and hashing ,2.6,Credential preference: biometric as secondary option when forget id
+0.7,Current practices about in-person verification,1.7,Post understanding: Third-party certificate verification,2.7,Stakeholder preference: trust with government
+0.8,Perception about biometric: Biometric depends on devices,1.8,Benefits: reduced exposure of personal information,2.8,Stakeholder preference: government has alreday access to credential data
+0.9,Perception about biometric: Biometrics is easier no need to remember credentials,1.9,Benefits: not needing multiple type of credential for different services,2.9,Stakeholders: trust financial institute where they has already data access to all information
+0.10,Perception about biometric: Appearance factors influence face recognition,1.10,Benefits: less repeated verification,2.10,Stakeholders: distrust with third parties
+0.11,Perception about biometric: External factors influence face recognition,1.11,Benfits: improved privacy,2.11,Stakeholders: financial Institution is more secure
+0.12,Perception about biometric: face is faster than fingerprint ,1.12,Benfits: improved security,2.12,Design preference: adding valid time constraints
+0.13,Perception about biometric: it will change after certain period time,1.13,Benefits: less risk of data linkage,2.13,Design preference: third-party commitments
+0.14,Perception about biometric: can't be stolen as locally stored in device,1.14,Benefits: less online identity issues-misinformation/malicious accounts,2.14,Design preference: encrypted credentials
+0.15,Concern about verification: Verification problem with phone number,1.15,Benefits: less uploading documents,2.15,Design preference: checking orgnizations
+0.16,Concern about verification: Verification problem with credential's validity period,1.16,Benefits: less risk of data getting stolen,2.16,Design preference: transparency-what information is going to be shared
+0.17,Concern about verification: Security concern about face verification ,1.17,Benefits: easier and quicker than the usual verification,2.17,Design preference: segregating database-preventing access to irrelevant or sensitive information
+0.18,Concern about verification:Security concern about iris verification ,1.18,Benefits: more trusted 3rd party involvement,2.18,Architecture preference: decentralized improve security of centrailized data storage
+0.19,Concern about verification:Security concern about fingerprint verification ,1.19,Benefits: reduced risk of data linkage,2.19,Architecture preference: decentralized mitigates privacy concerns
+0.20,Concern about verification: Lack of transparency/No idea how collected data will be used and shared,1.20,Benefits: tracability decrease the chance of fake accounts,2.20,Architecture preference: decentralized-users can choose preferred issuers
+0.21,Concern about verification: Confused understanding of authentication as verification,1.21,Concerns: PHC/credentials getting stolen (due to hacking),2.21,Architecture preference: decentralized and sector-based
+0.22,Concern about verification: Regional Difference in verification Method: Social Media,1.22,Concerns: credential's validity period,2.22,Architecture preference: clear regulation/policy for decentralized
+0.23,Concern about verification: Across border: Limitation in access/interoperability in verification method ,1.23,Concerns: untrustworthy PHC issuer,2.23,Concerns: diverse user preferences who trust as issuers
+,,1.24,Concerns: centralized data storage,2.24,Concerns:single credential across all information
+,,1.25,Concerns: Issuers can be hacked,,
+,,1.26,Concerns: PHC can de-anonymized,,
+,,1.27,"Concerns: information will be stored centrally, this may lead to power can be abused later",,
+,,1.28,Concerns: uncertain regulations,,
+,,1.29,Concerns: failed to detect criminal information,,
+,,1.30,Concerns: malicious attacker create fake PHC,,
+,,1.31,Concerns: data linkage of credential and information stored in service providers,,
+,,1.32,Credential: resistance to phisycal ID carrying,,
+,,1.33,Credential: biometrics more secure than gov id,,
+,,1.34,Credential: phone number as additional credential for security,,
+,,1.35,Stakeholders: comparison trustworthiness of PHC issuers and service providers,,
+,,1.36,Stakeholders: trust with government,,
+,,1.37,Stakeholders: trust with financial institution (secure/robust),,
+,,1.38,Stakeholders: distrust with social media companies,,
+,,1.39,Stakeholders: healthcare system is less secure,,
+,,1.40,Stakeholders: distrust with LLM companies-open based,,
+,,1.41,Stakeholders: distrust with LLM companies-data leakage in outputs,,
+,,1.42,Stakeholders: trust with social media system,,
+,,1.43,Stakeholders: trust government where they has already data access to all information,,
+,,1.44,Unnecessary PHC use in LLM,,
+,,1.45,Unnecessary PHC use in healthcare,,
+,,1.46,Unnecessary PHC use in government,,
+,,1.47,Unnecessary PHC use in background check-receptiveness to data sharing,,
+,,1.48,Unnecessary PHC use in social media-simple verification enough,,
+,,1.49,Mental model: security perception Online vs. Direct Data Submission for verification,,
+,,1.50,Trust on PHC depends on who is issuing PHC,,
+,,1.51,Confusion about the entity who access to credential,,
